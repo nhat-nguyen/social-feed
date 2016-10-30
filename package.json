@@ -1,0 +1,33 @@
+{
+  "name": "social-feed",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- -- index.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-node5": "^11.0.1",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "crypto-js": "^3.1.7",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "lodash": "^3.8.0",
+    "mongoose": "^4.4.11",
+    "morgan": "^1.7.0",
+    "nodeifyit": "^1.0.2",
+    "nodemon": "^1.9.1",
+    "passport": "^0.2.1",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "pbkdf2": "^3.0.9",
+    "require-dir": "^0.3.0",
+    "songbird": "^1.0.2",
+    "trycatch": "^1.5.21",
+    "twitter": "^1.4.0"
+  }
+}
